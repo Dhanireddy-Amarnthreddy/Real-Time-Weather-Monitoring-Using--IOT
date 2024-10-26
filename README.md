@@ -1,59 +1,112 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+"Real-Time Weather Monitoring Using IoT" focuses on leveraging Internet of Things technology to gather, analyze, and display weather data instantly. This project aims to provide accurate, up-to-date weather information, enhancing decision-making for various applications such as agriculture, disaster management, and urban planning.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
-
+—Using IoT technology along with a DHT1 humidity
+ sensor and an element LED display, the system proposes a
+ novel way of approaching the weather forecasting system with
+ real-time weather data provided based on low-cost and easy
+ deployable methods given the increasingly important nature of
+ climate change and the rising demand for precise, location-based
+ weather information. The NodeMCU microcontroller is able to
+ transmit and access the internet, empowering the system to which
+ it is connected. The DHT11 humidity sensor is used because it has
+ a high accuracy of measurement of humidity and temperature.
+ Data scans are continuously being monitored through sensor
+ readings. Those data collected are transmitted through these
+ sensor readings to a cloud server for proper analysis. In addition
+ to such cloud-based.DIt features a prediction of whether it is
+ going to rain or not by using NodeMCU, DHT1 humidity sensor,
+ Internet of Things technology, and component LED display. The
+ system will present real-time weather data in the form of an easily
+ deployable and low-cost solution, considering that the impacts
+ from climate change continue growing in effects, and thus there is
+ the need for more precise and place-specific weather information.
+ The system utilizes a NodeMCU microcontroller, which is Wi-Fi
+ enabled, meaning that data transfer is through the internet. This
+ acquires environmental data using the DHT11 humidity sensor,
+ which is recognized for excellent sensing accuracy in humidity
+ and temperature. Sensor data are sampled at specific intervals of
+ time and forwarded to the cloud server for analysis and storage.
+ Apart from the cloud accessibility, this system also contains an
+ LED display component.For various purposes including outdoor
+ recreation, transportation, and agriculture, it can give forecasts
+ related to the weather. This system of Internet of Things based on
+ weather forecasting enables it to take a choice based on current
+ meteorological data. The benefits of this system include low
+cost hardware, simple scalability, and the potential to collect
+ crowdsourced weather data. Gathering data from numerous
+ nodes positioned in different locations enhances the precision of
+ the system while developing more local and accurate forecasting
+ capabilities.
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Real-time weather data collection at a low cost, scalable, and energy-efficient.
+- The system gathers weather data from sensors and a weather API, displaying it on an LED screen.
+- Data is pushed to an IoT platform, where a machine learning model predicts upcoming weather conditions.
+- Real-Time Weather Display
+- Regular Data updates
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Determining the weather data that has to be collected.
+* Setting up the hardware requirements 
+  NodeMCU(ESP8266)
+  DHT11 Sensor
+  Rain Sensor
+  LED Display
+Connecting wires
+* Programing the NodeMCU using Arduino IDE which will be able to collect the data from the sensor and weather api.
+* Connecting to a weather API.
+*  Pushing the data to a IOT platform such as BLYNK or THINGS SPEAK
+ 
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![Screenshot 2024-10-24 103744](https://github.com/user-attachments/assets/49d88de9-be78-4f6f-95d5-1528d0343d77)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Blynk
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![blynk](https://github.com/user-attachments/assets/06380036-8eaa-4fd1-b24c-f18473397aa7)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+![blynk2](https://github.com/user-attachments/assets/80f0448b-866c-48c2-a46f-04edfb42154d)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Thingspeak
+
+![thingspeak](https://github.com/user-attachments/assets/67dfaf23-0b4b-419a-a601-28d7e3a7fb43)
+
+![thingspeak 2](https://github.com/user-attachments/assets/6364b8d3-979a-4867-a554-c1c914f10083)
+
+
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The project showcases IoT technology in weather monitoring using NodeMCU and DHT11 sensors.
+Key takeaways emphasize the fusion of technology with real-world applications in the IoT landscape.
+Affordability
+Environmental awareness
+Empowering Decision-Making
 
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1]        Dhanalakshmi, B., & Naidu, G. A. (2017, February). A survey on design and analysis of robust IoT architecture. In 2017 International Conference on Innovative Mechanisms for Industry Applications (ICIMIA) (pp. 375-378). IEEE.
 
+ [2]    Krishnamurthi, K., Thapa, S., Kothari, L., & Prakash, A. (2015). Arduino based weather monitoring system. International Journal of Engineering Research and General Science, 3(2), 452-458.
+
+ [3]      Sabharwal, N., Kumar, R., Thakur, A., & Sharma, J. (2014). A Low-Cost Zigbee Based automatic Wireless Weather Station With Gui And Web Hosting Facility. International Journal of Electrical and Electronics Engineering, 1. 
+
+[4]      Mahmood, S. N., & Hasan, F. F. (2017). Design of weather monitoring system using Arduino based database implementation. Journal of Multidisciplinary Engineering Science and Technology (JMEST), 4(4), 7109.
+
+ [5]     Yacchirema, D. C., Palau, C. E., & Esteve, M. (2017, January). Enable IoT interoperability in ambient assisted living: Active and healthy ageing scenarios. In 2017 14th IEEE Annual Consumer Communications & Networking Conference (CCNC) (pp. 53-58). IEEE.
 
 
 
