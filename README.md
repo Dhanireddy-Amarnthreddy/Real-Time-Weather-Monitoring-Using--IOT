@@ -89,6 +89,7 @@ Connecting wires
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
+
 The project showcases IoT technology in weather monitoring using NodeMCU and DHT11 sensors.
 Key takeaways emphasize the fusion of technology with real-world applications in the IoT landscape.
 Affordability
